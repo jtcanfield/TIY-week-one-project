@@ -47,3 +47,11 @@ footer {
   text-align: left;
   padding: 10px 0 10px 10px;
 }
+.photosize {
+  height: 400px;
+  width: 1000px;
+}
+.photobox {
+  display: flex;
+  flex-flow: row wrap;
+}
