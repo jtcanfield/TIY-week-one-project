@@ -46,16 +46,18 @@ footer {
   color: #F2F1E8;
   text-align: left;
   padding: 10px 0 10px 10px;
-  position: absolute;
+  position: fixed;
   width: 100%;
   bottom: 0;
 }
 .photobox {
-  height: 200px;
+  height: 250px;
   display: flex;
   flex-flow: row wrap;
+  margin: 10px;
 }
 .photobox img {
   max-height: 100%;
+  padding: 10px;
   flex: 0 1 auto;
 }
