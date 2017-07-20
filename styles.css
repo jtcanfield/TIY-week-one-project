@@ -19,6 +19,12 @@ font-family: 'Roboto', sans-serif;
 */
 body {
   text-align: center;
+  background-color: #F2F1E8;
+  margin: 0;
+}
+header {
+  background-color: #FFFFFF;
+  height: 50px;
 }
 #main-navigation {
   display: flex;
@@ -26,12 +32,18 @@ body {
   align-items: center;
 }
 #main-navigation a {
-  padding: 1%;
+  padding: 15px;
 }
 #logoimg {
   height: 30px;
 }
 #logo {
-  height: 30px;
   float: left;
+  padding: 10px 10px 10px 10px;
+}
+footer {
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  text-align: left;
+  padding: 10px 0 10px 10px;
 }
