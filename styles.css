@@ -65,7 +65,7 @@ footer {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  margin: 10px;
+  margin: 0 10px 10px 10px;
 }
 .photobox > div {
   margin: 10px;
@@ -80,12 +80,12 @@ footer {
 }
 #div1 {
   flex-grow: 3;
-  background: url("images/product-1.jpg") 50% 50% no-repeat;
+  background: url("images/product-1.jpg") 50% 0% no-repeat;
   background-size: cover;
 }
 #div2 {
   flex-grow: 1;
-  background: url("images/product-2.jpg") 50% 50% no-repeat;
+  background: url("images/product-2.jpg") 50% 0% no-repeat;
   background-size: cover;
 }
 #div3 {
@@ -95,12 +95,12 @@ footer {
 }
 #div4 {
   flex-grow: 1;
-  background: url("images/product-4.jpg") 50% 50% no-repeat;
+  background: url("images/product-4.jpg") 10% 50% no-repeat;
   background-size: cover;
 }
 #div5 {
   flex-grow: 1;
-  background: url("images/product-5.jpg") 50% 50% no-repeat;
+  background: url("images/product-5.jpg") 10% 50% no-repeat;
   background-size: cover;
 }
 #div6 {
@@ -110,6 +110,6 @@ footer {
 }
 #div7 {
   flex-grow: 1;
-  background: url("images/product-7.jpg") 50% 50% no-repeat;
+  background: url("images/product-7.jpg") 0% 50% no-repeat;
   background-size: cover;
 }
