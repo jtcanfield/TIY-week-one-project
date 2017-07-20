@@ -53,10 +53,10 @@ footer {
 /* WARNING - Flexbox below! */
 .photobox {
   height: 400px;
-  width: 100%;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  width: 100%;
   margin: 10px;
 }
 .photobox1 {
@@ -67,48 +67,49 @@ footer {
   justify-content: space-between;
   margin: 10px;
 }
-.photobox img {
-  max-height: 100%;
-  padding: 10px;
-  overflow: hidden;
-  flex-basis: 10%;
+.photobox > div {
+  margin: 10px;
 }
-.photobox1 img {
-  max-height: 100%;
-  padding: 10px;
-  overflow: hidden;
-  flex-basis: 19%;
+.photobox1 > div {
+  margin: 10px;
 }
 #fix {
   position: fixed;
   background-color: #FFFFFF;
   width: 100%;
 }
-#product1 {
-  flex-grow: 5;
-  flex-shrink: 0;
+#div1 {
+  flex-grow: 3;
+  background: url("images/product-1.jpg") 50% 50% no-repeat;
+  background-size: cover;
 }
-#product2 {
+#div2 {
   flex-grow: 1;
-  flex-shrink: 0;
+  background: url("images/product-2.jpg") 50% 50% no-repeat;
+  background-size: cover;
 }
-#product3 {
+#div3 {
   flex-grow: 1;
-  flex-shrink: 0;
+  background: url("images/product-3.jpg") 50% 50% no-repeat;
+  background-size: cover;
 }
-#product4 {
-  /*flex-grow: 1;*/
-  flex-shrink: 0;
+#div4 {
+  flex-grow: 1;
+  background: url("images/product-4.jpg") 50% 50% no-repeat;
+  background-size: cover;
 }
-#product5 {
-  /*flex-grow: 1;*/
-  flex-shrink: 0;
+#div5 {
+  flex-grow: 1;
+  background: url("images/product-5.jpg") 50% 50% no-repeat;
+  background-size: cover;
 }
-#product6 {
-  flex-grow: 50;
-  flex-shrink: 0;
+#div6 {
+  flex-grow: 2;
+  background: url("images/product-6.jpg") 50% 20% no-repeat;
+  background-size: cover;
 }
-#product7 {
-  /*flex-grow: 1;*/
-  flex-shrink: 0;
+#div7 {
+  flex-grow: 1;
+  background: url("images/product-7.jpg") 50% 50% no-repeat;
+  background-size: cover;
 }
