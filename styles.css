@@ -17,3 +17,13 @@ Input Border Bottom (Focus): #967343
 font-family: 'Merriweather', serif;
 font-family: 'Roboto', sans-serif;
 */
+body {
+  text-align: center;
+}
+#main-navigation {
+  display: flex;
+  justify-content: center;
+}
+#main-navigation a {
+  padding: 1%;
+}
