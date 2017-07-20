@@ -17,6 +17,9 @@ Input Border Bottom (Focus): #967343
 font-family: 'Merriweather', serif;
 font-family: 'Roboto', sans-serif;
 */
+html {
+  font-family: 'Merriweather', serif;
+}
 body {
   text-align: center;
   background-color: #F2F1E8;
@@ -24,6 +27,7 @@ body {
   padding-bottom: 100px;
 }
 header {
+  font-family: 'Roboto', sans-serif;
   height: 50px;
 }
 #main-navigation {
