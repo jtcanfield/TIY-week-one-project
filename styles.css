@@ -23,7 +23,6 @@ body {
   margin: 0;
 }
 header {
-  background-color: #FFFFFF;
   height: 50px;
 }
 #main-navigation {
@@ -50,14 +49,54 @@ footer {
   width: 100%;
   bottom: 0;
 }
+/* WARNING - Flexbox below! */
 .photobox {
-  height: 250px;
+  height: 400px;
+  width: 100%;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
+  justify-content: space-between;
   margin: 10px;
 }
-.photobox img {
+.photobox1 {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin: 10px;
+}
+.photobox img, .photobox1 img {
   max-height: 100%;
   padding: 10px;
-  flex: 0 1 auto;
+  overflow: hidden;
+}
+#fix {
+  position: fixed;
+  background-color: #FFFFFF;
+  width: 100%;
+}
+#product1 {
+  flex-grow: 5;
+  flex-shrink: 0;
+}
+#product2 {
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+#product3 {
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+#product4 {
+
+}
+#product5 {
+
+}
+#product6 {
+
+}
+#product7 {
+
 }
