@@ -273,7 +273,10 @@ footer {
   padding: 15px 35px 10px 0;
 }
 #ourmission{
-
+  font-style: italic;
+  border-left: 2px solid #C8C8C8;
+  padding-left: 30px;
+  font-weight: 100;
 }
 #roombackground{
   background: url(images/product-1.jpg) center center no-repeat;
