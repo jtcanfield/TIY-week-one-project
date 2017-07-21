@@ -304,3 +304,15 @@ footer {
   font-size: 12px;
   line-height: 1.8em;
 }
+#aboutbodydiv table{
+  border-spacing: 0;
+  padding: 10px;
+}
+#aboutbodydiv thead tr td{
+  text-align: center;
+}
+#aboutbodydiv thead tr td, #aboutbodydiv tbody tr td {
+  border: 1px solid #131511;
+  padding: 10px;
+}
+F2EADC
