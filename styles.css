@@ -70,8 +70,15 @@ header {
   float: left;
   padding: 10px 10px 10px 10px;
 }
+#logo img {
+  opacity: 1;
+  animation-name: fadeback;
+  animation-duration: 0.5s;
+}
 #logo img:hover {
   opacity: 0;
+  animation-name: fade;
+  animation-duration: 0.5s;
 }
 footer {
   background-color: #2B2F26;
@@ -446,4 +453,20 @@ footer {
       opacity: 1;
       transform: translateY(0);
    }
+}
+@keyframes fade {
+  0% {
+     opacity: 1;
+  }
+  100% {
+     opacity: 0;
+  }
+}
+@keyframes fadeback {
+  0% {
+     opacity: 0;
+  }
+  100% {
+     opacity: 1;
+  }
 }
