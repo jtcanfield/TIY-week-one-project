@@ -248,18 +248,24 @@ footer {
 /*END HOME PAGE SETTINGS*/
 
 /*ABOUT PAGE SETTING*/
+#communityofartists{
+  font-size: 72px;
+  font-weight: 400;
+}
 #aboutbodydiv{
-  margin: 0 10% 0 10%;
+  margin: 0 15% 0 15%;
   text-align: left;
   display: flex;
   flex-flow: column wrap;
+  line-height: 2em;
 }
 #aboutuspara img{
   height: 180px;
   float: left;
+  padding: 10px;
 }
 #ourmission{
-  
+
 }
 #roomtogrow{
   text-align: center;
