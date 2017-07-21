@@ -19,8 +19,8 @@ font-family: 'Roboto', sans-serif;
 */
 
 /*TODO
+fix issue where scrolling when fading in causes text to appear above header
 on about page, get paragraphs to fade in/scroll when scrolling
-make icon fade into different icon
 make button on main page that causes buttons to change text and run away from cursor
 */
 
@@ -37,7 +37,7 @@ body {
 header {
   font-family: 'Roboto', sans-serif;
   height: 50px;
-  z-index: 2;
+  z-index: 99;
 }
 #fix {
   position: fixed;
@@ -65,8 +65,13 @@ header {
   height: 30px;
 }
 #logo {
+  background: url("images/bent-creek-logo-coral.png") 49% 42% no-repeat;
+  background-size: 49% 55%;
   float: left;
   padding: 10px 10px 10px 10px;
+}
+#logo img:hover {
+  opacity: 0;
 }
 footer {
   background-color: #2B2F26;
