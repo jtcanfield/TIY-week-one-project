@@ -245,4 +245,27 @@ footer {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
-/*END HOME PAGE SETTINGS
+/*END HOME PAGE SETTINGS*/
+
+/*ABOUT PAGE SETTING*/
+#aboutbodydiv{
+  margin: 0 10% 0 10%;
+  text-align: left;
+}
+#aboutuspara img{
+  height: 180px;
+  float: left;
+}
+#roomtogrow{
+  text-align: center;
+}
+#alignsides{
+  display: flex;
+}
+#aboutshelf {
+  display: flex;
+  flex-flow: column nowrap;
+}
+#aboutshelf img{
+  height: 100px;
+}
