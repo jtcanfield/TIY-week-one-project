@@ -340,36 +340,39 @@ footer {
   background-color: #FFFFFF;
   display: flex;
   flex-flow: column wrap;
-  margin: 10% 25% 0 25%;
+  margin: 8% 25% 0 25%;
 }
 #newslettercontainer h1{
   padding-top: 5%;
+  font-weight: 200;
+  margin: 2%;
 }
-#newslettercontainer h1, #newslettercontainer h2{
+#newslettercontainer h2{
   font-weight: 400;
   margin: 2%;
 }
 #nameInput, #emailInput{
-  font-size: 30px;
+  font-size: 20px;
   border-top: none;
   border-left: none;
   border-right: none;
-  margin: 10px 5% 10px 5%;
-  border-bottom: 1px solid #968772;
+  margin: 20px 5% 20px 5%;
+  border-bottom: 2px solid #968772;
 }
 #nameInput:focus, #emailInput:focus{
   border-bottom: 1px solid #967343;
 }
 #submitcontainer{
-  padding-bottom: 5%;
+  padding-bottom: 10%;
 }
 #signupButton{
   color: #F2F1E8;
   background-color: #968772;
   border-radius: 3px;
   color: #FFF;
-  padding: 2%;
+  padding: 3%;
   border: 0px solid #fff;
+  font-size: 18px;
 }
 @keyframes buttonhover {
     from {background-color: #968772; color: #F2F1E8;}
