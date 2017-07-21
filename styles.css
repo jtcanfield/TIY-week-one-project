@@ -253,6 +253,9 @@ footer {
 #communityofartists{
   font-size: 72px;
   font-weight: 400;
+  animation-duration: 3s;
+  animation-name: fadeInRight;
+  z-index: 0;
 }
 #aboutbodydiv{
   margin: 0 15% 0 15%;
@@ -261,6 +264,8 @@ footer {
   flex-flow: column wrap;
   line-height: 2.2em;
   color: #131511;
+  animation-duration: 3s;
+  animation-name: fadeInLeft;
 }
 #aboutbodydiv h2{
   font-weight: 400;
@@ -337,6 +342,8 @@ footer {
   background-size: cover;
 }
 #newslettercontainer{
+  animation-name: fadeInLeftFast;
+  animation-duration: 2s;
   background-color: #FFFFFF;
   display: flex;
   flex-flow: column wrap;
@@ -360,7 +367,7 @@ footer {
   border-bottom: 2px solid #968772;
 }
 #nameInput:focus, #emailInput:focus{
-  border-bottom: 1px solid #967343;
+  border-bottom: 2px solid #967343;
 }
 #submitcontainer{
   padding-bottom: 10%;
@@ -383,4 +390,37 @@ footer {
   background-color: #966940;
   animation-name: buttonhover;
   animation-duration: 1s;
+}
+/*END NEWSLETTER PAGE SETTINGS*/
+
+/*BEGIN UNNECESSARY BUT COOL KEYFRAME ANIMATION JUMBLE*/
+@keyframes fadeInLeft {
+   0% {
+      opacity: 0;
+      transform: translateX(-100px);
+   }
+   100% {
+      opacity: 1;
+      transform: translateX(0);
+   }
+}
+@keyframes fadeInRight {
+   0% {
+      opacity: 0;
+      transform: translateX(100px);
+   }
+   100% {
+      opacity: 1;
+      transform: translateX(0);
+   }
+}
+@keyframes fadeInLeftFast {
+   0% {
+      opacity: 0;
+      transform: translateX(-1000px);
+   }
+   100% {
+      opacity: 1;
+      transform: translateX(0);
+   }
 }
