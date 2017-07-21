@@ -43,6 +43,7 @@ header {
   position: fixed;
   background-color: #FFFFFF;
   width: 100%;
+  box-shadow: 0 5px 5px #FFFFFF;
 }
 #main-navigation {
   display: flex;
@@ -72,6 +73,7 @@ footer {
   width: 100%;
   bottom: 0;
   z-index: 2;
+  box-shadow: 0 -5px 5px #2B2F26;
 }
 /*END GLOBAL SETTINGS*/
 
@@ -326,4 +328,20 @@ footer {
 }
 .tablecolor {
   background-color: #F2EADC;
+}
+/*END ABOUT PAGE SETTINGS*/
+
+/*NEWSLETTER PAGE SETTINGS*/
+#newsletterbody {
+  background: url(images/background-2.jpg) 0% 0% no-repeat;
+  background-size: cover;
+}
+#newslettercontainer{
+  background-color: #FFFFFF;
+  display: flex;
+  flex-flow: column wrap;
+  margin: 10% 20% 0 20%;
+}
+#newslettercontainer h1, #newslettercontainer h2{
+  font-weight: 400;
 }
