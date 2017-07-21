@@ -340,15 +340,20 @@ footer {
   background-color: #FFFFFF;
   display: flex;
   flex-flow: column wrap;
-  margin: 10% 20% 0 20%;
+  margin: 10% 25% 0 25%;
+}
+#newslettercontainer h1{
+  padding-top: 5%;
 }
 #newslettercontainer h1, #newslettercontainer h2{
   font-weight: 400;
+  margin: 2%;
 }
 #nameInput, #emailInput{
+  font-size: 30px;
   border-top: none;
   border-left: none;
   border-right: none;
-  margin: 20px;
+  margin: 10px 5% 10px 5%;
   border-bottom: 1px solid #131511;
 }
