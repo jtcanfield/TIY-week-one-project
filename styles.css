@@ -357,3 +357,12 @@ footer {
   margin: 10px 5% 10px 5%;
   border-bottom: 1px solid #131511;
 }
+#signupButton{
+  background-color: #1fabe5;
+border-radius: 3px;
+color: #FFF;
+
+padding: 10% 35% 10% 35%;
+border: 0px solid #fff;
+
+}
