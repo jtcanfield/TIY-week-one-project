@@ -53,6 +53,7 @@ header {
 #main-navigation a {
   padding: 15px;
   color: #2B2F26;
+  transition: color 0.2s ease-out;
 }
 #main-navigation a:hover {
   color: #CD5D67 !important;
@@ -281,6 +282,9 @@ footer {
 .aboutparafont {
   font-size: 20px;
 }
+.aboutparafont a{
+  transition: color 0.2s ease-out;
+}
 #aboutuspara a{
   color: #2B2F26;
 }
@@ -372,6 +376,7 @@ footer {
   border-right: none;
   margin: 20px 5% 20px 5%;
   border-bottom: 2px solid #968772;
+  transition: border-bottom 0.5s ease-out;
 }
 #nameInput:focus, #emailInput:focus{
   border-bottom: 2px solid #967343;
@@ -387,16 +392,12 @@ footer {
   padding: 3%;
   border: 0px solid #fff;
   font-size: 18px;
-}
-@keyframes buttonhover {
-    from {background-color: #968772; color: #F2F1E8;}
-    to {background-color: #966940; color: #FFFFFF;}
+  transition: color 1s ease-out;
+  transition: background-color 1s ease-out;
 }
 #signupButton:hover {
   color: #FFFFFF;
   background-color: #966940;
-  animation-name: buttonhover;
-  animation-duration: 1s;
 }
 /*END NEWSLETTER PAGE SETTINGS*/
 
