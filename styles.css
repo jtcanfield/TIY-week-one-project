@@ -248,7 +248,7 @@ footer {
 /*END HOME PAGE SETTINGS*/
 
 /*ABOUT PAGE SETTING*/
-#communityofartists{
+#aboutpageheaders{
   font-size: 72px;
   font-weight: 400;
 }
@@ -272,17 +272,27 @@ footer {
 }
 #roomtogrow{
   text-align: center;
+  font-size: 72px;
+  font-weight: 400;
+  color: #FFFFFF;
+  background: url("images/product-1.jpg") 50% 0% no-repeat;
 }
 #alignsides{
   display: flex;
 }
 #facilitiespara{
-  padding-top: 0;
+  margin-top: 0;
 }
 #aboutshelf {
   display: flex;
   flex-flow: column nowrap;
+  justify-content: space-between;
 }
 #aboutshelf img{
-  height: 100px;
+  height: 120px;
+  width: 150px;
+}
+#aboutshelf p{
+  font-size: 12px;
+  line-height: 1.8em;
 }
