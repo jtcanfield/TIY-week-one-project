@@ -73,11 +73,18 @@ footer {
   justify-content: space-between;
   margin: 0 10px 10px 10px;
 }
-.photobox > div {
+.photobox > div, .photobox1 > div  {
   margin: 10px;
+  display: flex;
+  align-items: flex-end;
 }
-.photobox1 > div {
-  margin: 10px;
+.photobox > div > div, .photobox1 > div > div{
+  z-index: 1;
+  position: absolute;
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  padding: 10px;
+  margin: -20px 0 0 0;
 }
 #fix {
   position: fixed;
@@ -120,65 +127,23 @@ footer {
   background-size: cover;
 }
 #textdiv1:after {
-  content: "WORSFHSDfkjghskjfhsdjkglhsdfgkjgsdklgdfsg";
-  z-index: 1;
-  position: absolute;
-  background-color: #2B2F26;
-  color: #F2F1E8;
-  padding: 10px;
-  margin: 10px;
+  content: "Endless Possibilities";
 }
 #textdiv2:after {
-  content: "WORSFHSDfkjghskjfhsdjkglhsdfgkjgsdklgdfsg";
-  z-index: 1;
-  position: absolute;
-  background-color: #2B2F26;
-  color: #F2F1E8;
-  padding: 10px;
-  margin: 10px;
+  content: "Sets";
 }
 #textdiv3:after {
-  content: "WORSFHSDfkjghskjfhsdjkglhsdfgkjgsdklgdfsg";
-  z-index: 1;
-  position: absolute;
-  background-color: #2B2F26;
-  color: #F2F1E8;
-  padding: 10px;
-  margin: 10px;
+  content: "Textures";
 }
 #textdiv4:after {
-  content: "WORSFHSDfkjghskjfhsdjkglhsdfgkjgsdklgdfsg";
-  z-index: 1;
-  position: absolute;
-  background-color: #2B2F26;
-  color: #F2F1E8;
-  padding: 10px;
-  margin: 10px;
+  content: "Tea Time";
 }
 #textdiv5:after {
   content: "WORSFHSDfkjghskjfhsdjkglhsdfgkjgsdklgdfsg";
-  z-index: 1;
-  position: absolute;
-  background-color: #2B2F26;
-  color: #F2F1E8;
-  padding: 10px;
-  margin: 10px;
 }
 #textdiv6:after {
   content: "WORSFHSDfkjghskjfhsdjkglhsdfgkjgsdklgdfsg";
-  z-index: 1;
-  position: absolute;
-  background-color: #2B2F26;
-  color: #F2F1E8;
-  padding: 10px;
-  margin: 10px;
 }
 #textdiv7:after {
   content: "WORSFHSDfkjghskjfhsdjkglhsdfgkjgsdklgdfsg";
-  z-index: 1;
-  position: absolute;
-  background-color: #2B2F26;
-  color: #F2F1E8;
-  padding: 10px;
-  margin: 10px;
 }
