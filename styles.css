@@ -257,12 +257,15 @@ footer {
   text-align: left;
   display: flex;
   flex-flow: column wrap;
-  line-height: 2em;
+  line-height: 2.2em;
+}
+.aboutparafont {
+  font-size: 20px;
 }
 #aboutuspara img{
-  height: 180px;
+  height: 130px;
   float: left;
-  padding: 10px;
+  padding: 15px 35px 10px 0;
 }
 #ourmission{
 
@@ -272,6 +275,9 @@ footer {
 }
 #alignsides{
   display: flex;
+}
+#facilitiespara{
+  padding-top: 0;
 }
 #aboutshelf {
   display: flex;
