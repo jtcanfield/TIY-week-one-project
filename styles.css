@@ -346,5 +346,9 @@ footer {
   font-weight: 400;
 }
 #nameInput, #emailInput{
-  
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin: 20px;
+  border-bottom: 1px solid #131511;
 }
