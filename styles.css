@@ -357,12 +357,13 @@ footer {
   margin: 10px 5% 10px 5%;
   border-bottom: 1px solid #131511;
 }
+#submitcontainer{
+  padding-bottom: 5%;
+}
 #signupButton{
   background-color: #1fabe5;
-border-radius: 3px;
-color: #FFF;
-
-padding: 10% 35% 10% 35%;
-border: 0px solid #fff;
-
+  border-radius: 3px;
+  color: #FFF;
+  padding: 2%;
+  border: 0px solid #fff;
 }
