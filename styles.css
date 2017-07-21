@@ -251,10 +251,15 @@ footer {
 #aboutbodydiv{
   margin: 0 10% 0 10%;
   text-align: left;
+  display: flex;
+  flex-flow: column wrap;
 }
 #aboutuspara img{
   height: 180px;
   float: left;
+}
+#ourmission{
+  
 }
 #roomtogrow{
   text-align: center;
