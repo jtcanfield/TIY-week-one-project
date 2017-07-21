@@ -8,7 +8,7 @@ Navigation Text: #2B2F26
 Navigation Text (Hover): #CD5D67
 Navigation Text (Active) #968772
 Button Background: #968772
-Button Background (Hover): #967343
+Button Background (Hover): #966940
 Button Text: #F2F1E8
 Button Text (Hover): #FFFFFF
 Input Border Bottom: #968772
@@ -273,7 +273,7 @@ footer {
   color: #2B2F26;
 }
 #aboutuspara a:hover {
-  color: #CD5D67;
+  color: #967343;
 }
 #aboutuspara img{
   height: 130px;
@@ -364,17 +364,20 @@ footer {
   padding-bottom: 5%;
 }
 #signupButton{
+  color: #F2F1E8;
   background-color: #968772;
   border-radius: 3px;
   color: #FFF;
   padding: 2%;
   border: 0px solid #fff;
 }
-@keyframes secondpagelinkanimation {
-    from {background-color: rgb(52, 216, 235); color: rgb(0, 0, 35);}
-    to {background-color: rgb(0, 0, 35); color: rgb(52, 216, 235);}
+@keyframes buttonhover {
+    from {background-color: #968772; color: #F2F1E8;}
+    to {background-color: #966940; color: #FFFFFF;}
 }
 #signupButton:hover {
-  animation-name: spacepagelinkanimation;
+  color: #FFFFFF;
+  background-color: #966940;
+  animation-name: buttonhover;
   animation-duration: 1s;
 }
