@@ -19,9 +19,28 @@
     <div id="newslettercontainer">
       <h1>Sign Up for Our Weekly Newsletter</h1>
       <h2>Stay up to date with events, activities, news and specials.</h2>
+      <input type="text" id="nameInput" name="nameInput">
+      <input type="text" id="emailInput" name="emailInput">
+      <button type="submit" id="signupButton">SUBMIT!</button>
     </div>
     <footer>
       <p>Copyright 2017, Bent Creek Ceramics</p>
     </footer>
+    <script type="text/javascript">
+      var nameInput = document.getElementById('nameInput');
+      var emailInput = document.getElementById('emailInput');
+      var signupButton = document.getElementById('signupButton');
+      signupButton.addEventListener('click', function(e) {
+        var nameVal = nameInput.value;
+        var emailVal = emailInput.value;
+        if (nameVal && emailVal) {
+          alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
+            nameInput.value = "";
+            emailInput.value = "";
+        } else {
+          alert('We would love for you to sign up, please provide both your name and email address.');
+        }
+      });
+      </script>
   </body>
 </html>
