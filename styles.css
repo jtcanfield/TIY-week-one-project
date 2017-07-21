@@ -387,6 +387,7 @@ footer {
   border-left: none;
   border-right: none;
   margin: 20px 5% 20px 5%;
+  padding: 10px 0 10px 0;
   border-bottom: 2px solid #968772;
   transition: border-bottom 0.5s ease-out;
 }
@@ -469,4 +470,19 @@ footer {
   100% {
      opacity: 1;
   }
+}
+
+
+
+
+
+/*nothing to see here....*/
+#clickme {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+}
+#clickme:hover {
+  opacity: 1;
 }
