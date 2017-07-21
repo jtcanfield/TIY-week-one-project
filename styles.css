@@ -309,7 +309,7 @@ footer {
 }
 #aboutbodydiv table{
   border-spacing: 0;
-  padding: 10px;
+  padding: 20px 20px 20px 0;
 }
 #aboutbodydiv thead tr td{
   text-align: center;
