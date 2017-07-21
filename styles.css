@@ -55,7 +55,10 @@ header {
   color: #2B2F26;
 }
 #main-navigation a:hover {
-  color: #CD5D67;
+  color: #CD5D67 !important;
+}
+.activelink {
+  color: #968772 !important;
 }
 #logoimg {
   height: 30px;
