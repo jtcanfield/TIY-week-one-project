@@ -51,6 +51,10 @@ header {
 }
 #main-navigation a {
   padding: 15px;
+  color: #2B2F26;
+}
+#main-navigation a:hover {
+  color: #CD5D67;
 }
 #logoimg {
   height: 30px;
@@ -70,6 +74,8 @@ footer {
   z-index: 2;
 }
 /*END GLOBAL SETTINGS*/
+
+/*HOME PAGE SETTING*/
 #bentcreek {
   font-size: 70px;
   font-weight: 500;
@@ -120,7 +126,7 @@ footer {
 }
 #div2 {
   flex-grow: 1;
-  background: url("images/product-2.jpg") 50% 0% no-repeat;
+  background: url("images/product-2.jpg") 50% 20% no-repeat;
   background-size: cover;
 }
 #div3 {
@@ -239,3 +245,4 @@ footer {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
+/*END HOME PAGE SETTINGS
