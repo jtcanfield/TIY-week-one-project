@@ -258,6 +258,11 @@ footer {
   display: flex;
   flex-flow: column wrap;
   line-height: 2.2em;
+  color: #131511;
+}
+#aboutbodydiv h2{
+  font-weight: 400;
+  margin-bottom: -0.5em;
 }
 .aboutparafont {
   font-size: 20px;
@@ -285,9 +290,6 @@ footer {
 #alignsides{
   display: flex;
 }
-#facilitiespara{
-  margin-top: 0;
-}
 #aboutshelf {
   display: flex;
   flex-flow: column nowrap;
@@ -296,6 +298,7 @@ footer {
 #aboutshelf img{
   height: 120px;
   width: 150px;
+  margin-top: 2em;
 }
 #aboutshelf p{
   font-size: 12px;
