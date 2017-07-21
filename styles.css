@@ -267,6 +267,12 @@ footer {
 .aboutparafont {
   font-size: 20px;
 }
+#aboutuspara a{
+  color: #2B2F26;
+}
+#aboutuspara a:hover {
+  color: #CD5D67;
+}
 #aboutuspara img{
   height: 130px;
   float: left;
