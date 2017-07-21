@@ -17,6 +17,14 @@ Input Border Bottom (Focus): #967343
 font-family: 'Merriweather', serif;
 font-family: 'Roboto', sans-serif;
 */
+
+/*TODO
+on about page, get paragraphs to fade in/scroll when scrolling
+make icon fade into different icon
+make button on main page that causes buttons to change text and run away from cursor
+*/
+
+/*GLOBAL SETTINGS*/
 html {
   font-family: 'Merriweather', serif;
 }
@@ -30,6 +38,11 @@ header {
   font-family: 'Roboto', sans-serif;
   height: 50px;
   z-index: 2;
+}
+#fix {
+  position: fixed;
+  background-color: #FFFFFF;
+  width: 100%;
 }
 #main-navigation {
   display: flex;
@@ -46,6 +59,17 @@ header {
   float: left;
   padding: 10px 10px 10px 10px;
 }
+footer {
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  text-align: left;
+  padding: 10px 0 10px 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 2;
+}
+/*END GLOBAL SETTINGS*/
 #bentcreek {
   font-size: 70px;
   font-weight: 500;
@@ -57,16 +81,6 @@ header {
   ffont-weight: 100;
   margin-top: 0;
   padding-top: 0;
-}
-footer {
-  background-color: #2B2F26;
-  color: #F2F1E8;
-  text-align: left;
-  padding: 10px 0 10px 10px;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-  z-index: 2;
 }
 /* WARNING - Flexbox below! */
 .photobox {
@@ -97,11 +111,6 @@ footer {
   color: #F2F1E8;
   padding: 10px;
   margin: -20px 0 0 0;
-}
-#fix {
-  position: fixed;
-  background-color: #FFFFFF;
-  width: 100%;
 }
 /*Images for selections*/
 #div1 {
