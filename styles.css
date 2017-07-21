@@ -78,6 +78,10 @@ footer {
 /*END GLOBAL SETTINGS*/
 
 /*HOME PAGE SETTING*/
+#indexbody{
+  animation-name: fadeInBottom;
+  animation-duration: 2s;
+}
 #bentcreek {
   font-size: 70px;
   font-weight: 500;
@@ -422,5 +426,15 @@ footer {
    100% {
       opacity: 1;
       transform: translateX(0);
+   }
+}
+@keyframes fadeInBottom {
+   0% {
+      opacity: 0;
+      transform: translateY(1000px);
+   }
+   100% {
+      opacity: 1;
+      transform: translateY(0);
    }
 }
