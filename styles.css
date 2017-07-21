@@ -471,13 +471,3 @@ footer {
      opacity: 1;
   }
 }
-/*nothing to see here....*/
-#clickme {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  opacity: 0;
-}
-#clickme:hover {
-  opacity: 1;
-}
