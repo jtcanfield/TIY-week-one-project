@@ -278,6 +278,9 @@ footer {
 #roombackground:hover {
   padding: 120px 0 120px 0;
 }
+#roombackground:active {
+  padding: 140px 0 140px 0;
+}
 #roomtogrow{
   text-align: center;
   font-size: 72px;
