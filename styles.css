@@ -141,37 +141,51 @@ footer {
   margin: -20px 0 0 0;
 }
 /*Images for selections*/
+#div1:hover, #div2:hover, #div3:hover, #div4:hover, #div5:hover, #div6:hover, #div7:hover {
+  transform: scale(1.05);
+  z-index: 10;
+}
+#div1:active, #div2:active, #div3:active, #div4:active, #div5:active, #div6:active, #div7:active {
+  flex-grow: 50;
+}
 #div1 {
+  transition: all 0.4s;
   flex-grow: 3;
   background: url("images/product-1.jpg") 50% 0% no-repeat;
   background-size: cover;
 }
 #div2 {
+  transition: all 0.4s;
   flex-grow: 1;
   background: url("images/product-2.jpg") 50% 20% no-repeat;
   background-size: cover;
 }
 #div3 {
+  transition: all 0.4s;
   flex-grow: 1;
   background: url("images/product-3.jpg") 50% 50% no-repeat;
   background-size: cover;
 }
 #div4 {
+  transition: all 0.4s;
   flex-grow: 1;
   background: url("images/product-4.jpg") 10% 50% no-repeat;
   background-size: cover;
 }
 #div5 {
+  transition: all 0.4s;
   flex-grow: 1;
   background: url("images/product-5.jpg") 10% 50% no-repeat;
   background-size: cover;
 }
 #div6 {
+  transition: all 0.4s;
   flex-grow: 2;
   background: url("images/product-6.jpg") 50% 20% no-repeat;
   background-size: cover;
 }
 #div7 {
+  transition: all 0.4s;
   flex-grow: 1;
   background: url("images/product-7.jpg") 0% 50% no-repeat;
   background-size: cover;
@@ -179,12 +193,12 @@ footer {
 #textdiv1:after {
   content: "Endless Possibilities";
 }
-#textdiv1 {
+#textdiv1, #textdiv2, #textdiv3, #textdiv4, #textdiv5, #textdiv6, #textdiv7 {
   -moz-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
-#textdiv1:hover {
+#textdiv1:hover, #textdiv2:hover, #textdiv3:hover, #textdiv4:hover, #textdiv5:hover, #textdiv6:hover, #textdiv7:hover  {
   -moz-transform: scale(1.2);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
@@ -192,80 +206,20 @@ footer {
 #textdiv2:after {
   content: "Sets";
 }
-#textdiv2 {
-  -moz-transition: all 0.4s;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-}
-#textdiv2:hover {
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-}
 #textdiv3:after {
   content: "Textures";
-}
-#textdiv3 {
-  -moz-transition: all 0.4s;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-}
-#textdiv3:hover {
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
 }
 #textdiv4:after {
   content: "Tea Time";
 }
-#textdiv4 {
-  -moz-transition: all 0.4s;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-}
-#textdiv4:hover {
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-}
 #textdiv5:after {
   content: "Jars and Containers";
-}
-#textdiv5 {
-  -moz-transition: all 0.4s;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-}
-#textdiv5:hover {
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
 }
 #textdiv6:after {
   content: "Wasabi and Saki";
 }
-#textdiv6 {
-  -moz-transition: all 0.4s;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-}
-#textdiv6:hover {
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-}
 #textdiv7:after {
   content: "Sippin' on Sunshine";
-}
-#textdiv7 {
-  -moz-transition: all 0.4s;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-}
-#textdiv7:hover {
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
 }
 /*END HOME PAGE SETTINGS*/
 
