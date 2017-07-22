@@ -141,6 +141,11 @@ footer {
   margin: -20px 0 0 0;
 }
 /*Images for selections*/
+@media handheld and (max-width: 620px) {
+  #div1:hover, #div2:hover, #div3:hover, #div4:hover, #div5:hover, #div6:hover, #div7:hover {
+    z-index: 10;
+  }
+}
 #div1:hover, #div2:hover, #div3:hover, #div4:hover, #div5:hover, #div6:hover, #div7:hover {
   transform: scale(1.05);
   z-index: 10;
