@@ -88,7 +88,7 @@ footer {
   position: fixed;
   width: 100%;
   bottom: 0;
-  z-index: 2;
+  z-index: 99;
   box-shadow: 0 -5px 5px #2B2F26;
 }
 /*END GLOBAL SETTINGS*/
@@ -113,7 +113,7 @@ footer {
 /* WARNING - Flexbox below! */
 .photobox {
   height: 400px;
-  width: 100%;
+  width: 98%;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -121,7 +121,7 @@ footer {
 }
 .photobox1 {
   height: 250px;
-  width: 100%;
+  width: 98%;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -228,7 +228,7 @@ footer {
   font-size: 72px;
   font-weight: 400;
   animation-duration: 3s;
-  animation-name: fadeInRight;
+  animation-name: fadeback;
   z-index: 0;
 }
 #aboutbodydiv{
